@@ -9,16 +9,16 @@ function Sidebar() {
         <div className="relative w-full h-14">
           <Image src="https://rb.gy/i26zak" alt="bg" layout="fill" priority />
         </div>
-        <div className="h-100">
+        <div className="!mt-2">
           <Image
             src="https://rb.gy/gz3pd2"
             alt="profile"
-            width="100rem"
-            height="100rem"
-            className="rounded-full !mt-2 cursor-pointer"
+            width="50rem"
+            height="50rem"
+            className="rounded-full cursor-pointer align-bottom"
           />
         </div>
-        <div className="mt-5 my-4">
+        <div className="mt-2 my-4 space-x-0.5">
           <h4 className="hover:underline decoration-purple-700 underline-offset-1 cursor-pointer">
             Vitalik Buterin
           </h4>
@@ -26,7 +26,7 @@ function Sidebar() {
         </div>
 
         <div className="hidden md:inline text-left text-sm">
-          <div className="font-medium sidebarButton space-y-0.5">
+          <div className="font-medium sidebarButton space-y-0.5 border-b border-t border-black/20">
             <div className="flex justify-between space-x-2">
               <h4>Who viewed your profile</h4>
               <span className="text-blue-500">321</span>
@@ -37,7 +37,7 @@ function Sidebar() {
             </div>
           </div>
 
-          <div className="sidebarButton">
+          <div className="sidebarButton border-b border-black/20">
             <h4 className="leading-4 text-xs">
               Access exclusive tools & insights
             </h4>
@@ -60,7 +60,7 @@ function Sidebar() {
           <FontAwesomeIcon icon={faPlus} className="!h-4" />
         </div>
         <p className="sidebarLink">Followed Hashtags</p>
-        <div className="sidebarButton text-center">
+        <div className="sidebarButton text-center  border-t border-black/20">
           <h4 className="font-medium text-sm">Discover More</h4>
         </div>
       </div>
