@@ -22,7 +22,7 @@ function NavLink({
       <FontAwesomeIcon icon={icon} className="!h-6 !w-6 lg:!-mb-1" />
 
       <h4
-        className={`text-sm pt-1 ${
+        className={`text-xs pt-1 ${
           feed && "hidden lg:flex justify-center w-full mx-auto"
         }`}
       >

@@ -4,7 +4,7 @@ import { faCircleDot, faCircleInfo } from "@fortawesome/free-solid-svg-icons";
 function NewsWidgets() {
   return (
     <div className="hidden xl:inline space-y-2">
-      <div className="bg-white py-2.5 rounded-lg space-y-2 w-80 overflow-hidden border border-gray-300">
+      <div className="bg-white py-2.5 rounded-lg space-y-2 w-75 overflow-hidden border border-gray-300">
         <div className="flex items-center justify-between font-bold px-2.5">
           <h4>LinkedIn News</h4>
           <FontAwesomeIcon

@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "name": "Leanne Graham",
+      "username": "leanne",
+      "image": "https://i.pravatar.cc/150?u=1"
+    },
+    {
+      "name": "Joe Smith",
+      "username": "joe",
+      "image": "https://i.pravatar.cc/150?u=2"
+    },
+    {
+      "name": "Chandler Bing",
+      "username": "chandler",
+      "image": "https://i.pravatar.cc/150?u=3"
+    },
+    {
+      "name": "Monica Geller",
+      "username": "monica",
+      "image": "https://i.pravatar.cc/150?u=4"
+    },
+    {
+      "name": "Carolina Moralis",
+      "username": "carolina",
+      "image": "https://i.pravatar.cc/150?u=5"
+    },
+    {
+      "name": "Ross Geller",
+      "username": "ross",
+      "image": "https://i.pravatar.cc/150?u=6"
+    },
+    {
+      "name": "Abigail Breslin",
+      "username": "abigail",
+      "image": "https://i.pravatar.cc/150?u=7"
+    },
+    {
+      "name": "Farha Akhtar",
+      "username": "farha",
+      "image": "https://i.pravatar.cc/150?u=8"
+    },
+    {
+      "name": "Phoebe Buffay",
+      "username": "phoebe",
+      "image": "https://i.pravatar.cc/150?u=9"
+    },
+    {
+      "name": "Rachel Green",
+      "username": "rachel",
+      "image": "https://i.pravatar.cc/150?u=10"
+    }
+  ]
+}
