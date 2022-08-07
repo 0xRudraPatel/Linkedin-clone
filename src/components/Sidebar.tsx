@@ -22,7 +22,7 @@ function Sidebar() {
           <h4 className="hover:underline decoration-purple-700 underline-offset-1 cursor-pointer">
             Vitalik Buterin
           </h4>
-          <p className="text-black/60 text-sm">vitalik@ethereum.org</p>
+          <p className="text-black/60 text-sm">vitalik</p>
         </div>
 
         <div className="hidden md:inline text-left text-sm">
@@ -57,10 +57,10 @@ function Sidebar() {
         <p className="sidebarLink">Groups</p>
         <div className="flex items-center justify-between">
           <p className="sidebarLink">Events</p>
-          <FontAwesomeIcon icon={faPlus} className="!h-4" />
+          <FontAwesomeIcon icon={faPlus} className="!h-4 mr-2" />
         </div>
         <p className="sidebarLink">Followed Hashtags</p>
-        <div className="sidebarButton text-center  border-t border-black/20">
+        <div className="sidebarButton text-center border-t border-black/20">
           <h4 className="font-medium text-sm">Discover More</h4>
         </div>
       </div>
